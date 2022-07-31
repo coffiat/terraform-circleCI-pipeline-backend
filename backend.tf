@@ -1,9 +1,10 @@
 terraform {
   backend "remote" {
-    organization = "terraform-circle-ci"
+    organization = "DataITCloud"
 
     workspaces {
-      name = "terraform-circle-ci"
+      name = "Terraform_CircleCI"
     }
   }
 }
+
